@@ -1,0 +1,391 @@
+body{
+    background-color: rgb(169, 169, 157);
+}
+
+#Menu{
+    border: 2px solid rgb(169, 169, 157) ;
+	width: 1570px;
+    height: 220px;
+	background-color: #f0f0f4;
+	position: fixed;
+	margin-top: -200px;
+}
+.logo{
+	border: 1px solid #f0f0f4; ;
+	width: 150PX;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+.menu{
+	border:1PX SOLID#f0f0f4;;
+	width:1360px;
+	height: 30px;
+	margin-left:500 px;
+	margin-top: -30px;
+}
+.menu ul{
+margin-left: 400px;
+display: inline-block;
+margin-top:-50px;
+}
+
+
+.menu ul li{
+	display: inline-block;
+	margin-right:20px;
+	
+	}
+
+	.menu ul li a{
+		text-decoration: none;
+		font-size: 15px;
+		
+		}
+		.menu ul li a:hover{
+			color: red;			
+			}
+
+			.hautm{
+			border: 1PX SOLID black ;
+			width: 1570px;
+			height: 50px;
+			box-shadow: 2PX 2px 2PX 2PX white;
+			}
+
+			.cliqueA{
+				border: 1PX SOLID black ;
+			width: 400px;
+			height: 30px;
+			margin-left: 30px;
+			}
+
+			.cliqueA p {
+				margin-top: -0.5px;
+				margin-left: 26px;
+			}
+			.tel{
+				border: 1PX SOLID black ;
+			width: 250px;
+			height: 30px;
+			margin-left: 948px;
+			margin-top: -25px;
+			}
+        
+			.tel P{
+				margin-top: 5px;
+				margin-left: 26px;
+			}
+        
+
+			.don{
+				border: 1PX SOLID black ;
+			width: 150px;
+			height: 30px;
+			margin-left: 1200px;
+			margin-top: -32px;background-color:rgb(211, 13, 13);
+			}
+			.don P{
+				margin-top: 5px;
+				margin-left: 26px;
+			}
+
+			.lien a{
+                color: #B90000;
+				font-size: 20px;
+				text-decoration: none;
+			}
+
+			.lien h3{
+                color: black;
+				font-size: 20px;
+				margin-top: -40px;
+				margin-left: 120px;
+			}
+    
+	
+#Corps{
+    border: 2px solid black;
+	height: 3500px;
+	width: 1559px;
+    
+}
+#contenu1{
+	height: 500px;
+	width: 1520px;
+	margin-left: 20px;
+	margin-top: 200px;
+	background-image:url(FR.jpg);
+
+}
+.cont{
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+#contenu{
+	border: 1px solid white;
+	height: 150px;
+	width: 1480px;
+	margin-left: 40px;
+	margin-top: -650px;
+	background-color: aliceblue;
+    
+}
+#contenu2{
+    border: 2px solid rgb(169, 169, 157);
+	height: 600px;
+	width: 500px;
+	margin-left: 280px;
+	margin-top:100px;
+	background-image: url("Capture6.JPG");
+	background-size: cover;
+	background-position: center;
+
+    
+}
+#contenu3{
+    border: 2px solid white;
+	height: 500px;
+	width: 500px;
+	margin-left: 850px;
+	margin-top:-605px;
+	background-image: url("welcome.jpg");
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2PX 2PX 2PX rgb(169, 169, 157);
+    
+}
+#contenu4{
+    border: 2px solid white;
+	height: 700px;
+	width: 400px;
+	margin-left: 100px;
+	margin-top:140px;
+	background-image: url("CONTENU1.jpg");
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2PX 2PX 2PX rgb(169, 169, 157);
+    
+}
+#contenu5{
+    border: 2px solid white;
+	height: 700px;
+	width: 400px;
+	margin-left: 550px;
+	margin-top:-705px;
+	background-image: url("Capture.JPG");
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 2PX 2PX 2PX rgb(169, 169, 157);
+    
+}
+#contenu6{
+    border: 2px solid white;
+	height: 700px;
+	width: 400px;
+	margin-left: 1000px;
+	margin-top:-705px;
+	background-image: url("Capture1.JPG");
+	background-size: cover;
+	background-position: center;
+
+ 
+    
+}
+#contenu7{
+    border: 2px solid white;
+	height: 400px;
+	width: 1400px;
+	margin-left: 20px;
+	margin-top:200px;
+	background-image: url("Capture9.JPG");
+	background-size: cover;
+	background-position: center;
+    
+}
+.divis{
+	border: 2px solid  white;
+	height: 400px;
+	width: 1400px;
+	margin-left:20px;
+	margin-top:px;
+	background-image: url("Capture12.JPG");
+	background-size: cover;
+	background-position: center;
+}
+.Act1{
+    margin-left: 280px;
+    
+}
+
+
+
+
+
+
+
+
+#Foot{
+    border: 2px solid black;
+    height: 500px;
+    background-image: url("Capture\ d’écran\ 2023-07-29\ 150240.png");
+	background-size: cover;
+	background-position: center;
+
+
+}
+@charset "utf-8";
+
+
+
+body {
+	background-color: #ffffff;
+
+/* for pull-down menu to work in IE6*/
+behavior:url("csshover2.htc");
+
+}
+
+/* pull-down mainmenu css */
+.mainmenu{
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:#cf0d0d;
+	background: #f0f0f4;
+	padding: 0;
+	border: solid #A0A0A4;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+	color: #d91806;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width:1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: white;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: #FF0000;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#d0c5c5;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:red;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #B90000;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #FFFF00; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #FFFF00;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #FFFF00;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #FFFF00;
+}
+
+
+/* end of mainmenu css */
+
+
+
